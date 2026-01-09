@@ -267,3 +267,66 @@
     width: 32px;
 }
 
+/* Brain section styles */
+
+.brain {
+    width: 1600px;
+    height: 600px;
+}
+
+.brain .brain-container {
+    width: 1360px;
+    margin-top: 120px;
+    padding: 0 96px 120px 96px;
+    display: flex;
+    justify-content: left;
+}
+
+.brain .brain-image{
+    margin: 0;
+    padding: 0;
+}
+
+.brain .brain-content {
+    margin-left: 60px;
+    margin-top: 72px;
+}
+
+.brain-content span {
+    font-size: 16px;
+    font-weight: 500;
+    color: #469165;
+}
+
+.brain-content h2 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #001931;
+}
+
+.brain-content p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #627382;
+}
+
+.brain-content .list .b-list {
+    display: flex;
+    align-items: center;
+}
+
+.brain-content .list .b-list img {
+    height: 16.25px;
+    width: 16.25px;
+    margin-top: 1.88px;
+    margin-left: 1.88px;
+}
+
+.brain-content .list .b-list p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #001931;
+    margin-left: 6px;
+}
+
