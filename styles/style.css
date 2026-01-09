@@ -330,3 +330,61 @@
     margin-left: 6px;
 }
 
+/* Ready to Think section styles */
+
+.think {
+    height: 460px;
+    width: 1600px;
+    padding: 120px 100px 60px;
+}
+
+.think .think-container {
+    height: 384px;
+    width: 1360px;
+    background-color: #F7F6F2;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.think-container .think-heading h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.think-container p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+}
+
+.think-container .think-heading p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+}
+
+.think-btn button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.think-container .think-btn button {
+    height: 52px;
+    width: 194px;
+
+    padding: 12px 16px;
+    margin-right: 10px;
+    color: #ffffff;
+    background-color: #469165;
+    border: none;
+    border-radius: 4px;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
