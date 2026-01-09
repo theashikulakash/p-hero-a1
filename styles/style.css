@@ -37,7 +37,7 @@
 }
 
 .navbar .nav-btn {
-    width: 164px;
+    width: 170px;
     height: 44px;
     padding: 12px 16px;
     margin-right: 10px;
@@ -49,6 +49,12 @@
     font-size: 16px;
     font-weight: 600;
     cursor: pointer;
+}
+
+.navbar button:hover {
+    color: #469165;
+    background-color: transparent;
+    border: 2px solid #469165;
 }
 
 /* border section test */
@@ -160,6 +166,11 @@
     font-weight: 500;
 }
 
+.banner-btn button:first-child:hover {
+    background-color: transparent;
+    border: 2px solid #469165;
+}
+
 .banner-btn button:last-child {
     background-color: transparent;
     color: #ffffff;
@@ -171,6 +182,12 @@
     gap: 8px;
     cursor: pointer;
     font-weight: 500;
+}
+
+.banner-btn button:last-child:hover {
+    background-color: #469165;
+    color: #fff;
+    border: none;
 }
 
 .banner-btn button i,
@@ -365,17 +382,9 @@
     color: #627382;
 }
 
-.think-btn button {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
-}
-
 .think-container .think-btn button {
     height: 52px;
-    width: 194px;
-
+    width: 204px;
     padding: 12px 16px;
     margin-right: 10px;
     color: #ffffff;
@@ -386,6 +395,14 @@
     font-size: 16px;
     font-weight: 600;
     cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.think-container .think-btn button:hover {
+    background-color: #001931;
 }
 
 /* Footer section styles */
